@@ -2,7 +2,7 @@ package ConcreteStates
 
 import State._
 
-class desbloqueadoState extends celularState {
+class DesbloqueadoState extends CelularState {
     
     override def llamar() : Unit = println("Llamando...")
     override def llamarEmergencia() : Unit = println("Llamando a emergencia...")
@@ -13,6 +13,6 @@ class desbloqueadoState extends celularState {
     override def abrirAplicacionA() : Unit = println("Abriendo aplicacion A...")
     override def abrirAplicacionB() : Unit = println("Abriendo aplicacion B")
     override def cerrarAplicaciones() : Unit = println("Cerrando aplicaciones...")
-    override def verFotos() : Unit = println("Fotos...")
+    override def verFotos() : Unit = println("Abriendo galeria...")
     override def abrirRecovery() : Unit = {}
 }

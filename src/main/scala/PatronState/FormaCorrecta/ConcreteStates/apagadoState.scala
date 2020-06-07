@@ -2,7 +2,7 @@ package ConcreteStates
 
 import State._
 
-class apagadoState extends celularState {
+class ApagadoState extends CelularState {
     
     override def llamar() : Unit = {}
     override def llamarEmergencia() : Unit = {}

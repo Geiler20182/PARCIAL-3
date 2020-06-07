@@ -2,7 +2,7 @@ package ConcreteStates
 
 import State._
 
-class bloqueadoState extends celularState {
+class BloqueadoState extends CelularState {
     
 
     override def llamar() : Unit = {}

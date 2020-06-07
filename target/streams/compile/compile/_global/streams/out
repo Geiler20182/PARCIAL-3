@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Mejia\Documents\POO\Parcial-3\PARCIAL-3\src\main\scala\PatronState\ConcreteStates\bloqueadoState.scala:5:7: class bloqueadoState needs to be abstract, since method abrirRecovery in trait celularState of type ()Unit is not defined[0m
-[0m[[0m[31merror[0m] [0m[0mclass bloqueadoState extends celularState {[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Mejia\Documents\POO\Parcial-3\PARCIAL-3\src\main\scala\Test\TestIncorrecto.scala:10:23: not found: type CelularEstados[0m
+[0m[[0m[31merror[0m] [0m[0m        var celular : CelularEstados = new CelularEstados [0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Mejia\Documents\POO\Parcial-3\PARCIAL-3\src\main\scala\Test\TestIncorrecto.scala:10:44: not found: type CelularEstados[0m
+[0m[[0m[31merror[0m] [0m[0m        var celular : CelularEstados = new CelularEstados [0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

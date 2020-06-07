@@ -4,9 +4,9 @@ import ConcreteStates._
 import State._
 
 
-class celularContext {
+class CelularContext {
 
-    private var estado_actual : celularState = new bloqueadoState
+    private var estado_actual : CelularState = new BloqueadoState
     
     def llamar() : Unit = estado_actual.llamar()
     def llamarEmergencia() : Unit = estado_actual.llamarEmergencia()
@@ -19,6 +19,6 @@ class celularContext {
     def cerrarAplicaciones() : Unit = estado_actual.cerrarAplicaciones()
     def verFotos() : Unit = estado_actual.verFotos()
     def abrirRecovery() : Unit = estado_actual.abrirRecovery()
-    def setEstadoActual(nuevo_estado : celularState) : Unit = estado_actual = nuevo_estado
+    def setEstadoActual(nuevo_estado : CelularState) : Unit = estado_actual = nuevo_estado
 
 }

@@ -1,16 +1,16 @@
-package PatronState
+package scala
 
 import ConcreteStates._
 import Context._
 import State._
 
-object Main {
+object TestCorrecto {
 
-    def main(args: Array[String]) : Unit = {
+    /*def main(args: Array[String]) : Unit = {
 
         println("Estado de un celular")
 
-        var celular_context = new celularContext
+        var celular_context = new CelularContext
         
         println("\n[Celular bloqueado]\n")
         celular_context.llamar()
@@ -26,7 +26,7 @@ object Main {
         celular_context.abrirRecovery()
 
         println("\n[Celular desbloqueado]\n")
-        celular_context.setEstadoActual(new desbloqueadoState)
+        celular_context.setEstadoActual(new DesbloqueadoState)
         celular_context.llamar()
         celular_context.llamarEmergencia()
         celular_context.contestar()
@@ -40,7 +40,7 @@ object Main {
         celular_context.abrirRecovery()
 
         println("\n[Celular apagado]\n")
-        celular_context.setEstadoActual(new apagadoState)
+        celular_context.setEstadoActual(new ApagadoState)
         celular_context.llamar()
         celular_context.llamarEmergencia()
         celular_context.contestar()
@@ -54,5 +54,5 @@ object Main {
         celular_context.abrirRecovery()
 
         println("\n")
-    }
+    }*/
 }

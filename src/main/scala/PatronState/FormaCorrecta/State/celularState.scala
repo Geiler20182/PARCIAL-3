@@ -1,6 +1,6 @@
 package State
 
-trait celularState {
+trait CelularState {
 
     def llamar() : Unit
     def llamarEmergencia() : Unit
