@@ -4,7 +4,7 @@ import FormaIncorrecta._
 
 object TestIncorrecto {
 
-    def main(args: Array[String]) : Unit = {
+   /* def main(args: Array[String]) : Unit = {
         
         println("\nTest incorrecto...\n")
 
@@ -53,5 +53,5 @@ object TestIncorrecto {
         celular.abrirRecovery()
 
         println("\n")
-    }  
+    }  */
 }

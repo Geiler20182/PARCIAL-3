@@ -6,7 +6,7 @@ import State._
 
 object TestCorrecto {
 
-    /*def main(args: Array[String]) : Unit = {
+    def main(args: Array[String]) : Unit = {
 
         println("Estado de un celular")
 
@@ -54,5 +54,5 @@ object TestCorrecto {
         celular_context.abrirRecovery()
 
         println("\n")
-    }*/
+    }
 }
